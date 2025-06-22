@@ -1,0 +1,74 @@
+.alertContainer {
+  padding: 32px;
+  box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  width: max-content;
+  max-width: 450px;
+  gap: 24px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.textContainer {
+  display: grid;
+}
+
+.iconLike {
+  width: 32px;
+  height: 32px;
+}
+
+.bigIconWrap {
+  background: rgb(255, 234, 159);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.iconCheck {
+  width: 23px;
+  height: 23px;
+  display: block;
+  background: rgb(35, 153, 65);
+}
+
+.smallIconWrap {
+  border-radius: 5.71px;
+
+  background: rgb(196, 244, 208);
+
+  padding: 12px;
+}
+
+.defaultButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 0;
+  border-radius: 29px;
+  background: rgb(229, 229, 229);
+  padding: 5px 8px;
+}
+
+.actionButton {
+  border: 0;
+  background-color: inherit;
+  font-weight: 900;
+  width: max-content;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.newPositionButton {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.undoBtn {
+  border: 0;
+  border-radius: 10px;
+  background: rgb(229, 229, 229);
+  padding: 10px;
+}
