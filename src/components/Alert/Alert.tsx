@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import style from "./Alert.module.css";
 import type { IconType } from "react-icons";
+import CloseBtn from "../closeBtn/closeBtn";
 
 interface Props {
   Icon?: IconType;
@@ -43,16 +44,7 @@ export default function Alert({
           {paragraph && <p>{paragraph}</p>}
           {action && <button className={style.actionButton}>{action}</button>}
         </div>
-        {close === "default" && (
-          <button
-            className={clsx(
-              style.defaultButton,
-              !paragraph && style.newPositionButton
-            )}
-          >
-            X
-          </button>
-        )}
+        {close === "default" && <CloseBtn paragraph={paragraph} />}
         {close === "button" && <button className={style.undoBtn}>Undo</button>}
       </div>
     </>

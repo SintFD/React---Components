@@ -1,0 +1,13 @@
+.button {
+  padding: 14px 62px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 8px;
+}
+
+.whiteBtn {
+  background: rgb(255, 255, 255);
+}
+.blackBtn {
+  background: rgb(0, 0, 0);
+  color: white;
+}
