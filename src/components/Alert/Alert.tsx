@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import style from "./Alert.module.css";
 import type { IconType } from "react-icons";
-import CloseBtn from "../closeBtn/closeBtn";
+import CloseBtn from "../CloseBtn/CloseBtn";
 
 interface Props {
   Icon?: IconType;

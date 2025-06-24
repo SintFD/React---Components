@@ -3,6 +3,7 @@ import Alert from "../Alert/Alert";
 import "./App.css";
 import Popups from "../Popups/Popups";
 import { PiSmileyMeh } from "react-icons/pi";
+import Button from "../common/Button/Button";
 
 function App() {
   return (
@@ -60,6 +61,18 @@ function App() {
           Icon={PiSmileyMeh}
           title="Accept changes?"
           paragraph="Malesuada tellus tincidunt fringilla enim, id mauris. Id etiam nibh suscipit aliquam dolor."
+          buttons={
+            <>
+              <Button color="white" text="Reject" />
+              <Button color="black" text="Accept" />
+            </>
+          }
+        />
+        <Popups
+          title="We need to verify your identity"
+          paragraph="We take certain actions for the safety of our users."
+          input={true}
+          buttons={<Button color="black" text="Continue" />}
         />
       </div>
     </div>

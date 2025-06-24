@@ -1,15 +1,23 @@
 import style from "./Popups.module.css";
 import type { IconType } from "react-icons";
-import CloseBtn from "../closeBtn/closeBtn";
-import Button from "../Button/Button";
+import CloseBtn from "../CloseBtn/CloseBtn";
+import Button from "../common/Button/Button";
 
 interface Props {
   Icon?: IconType;
   title: string;
   paragraph: string;
+  buttons?: React.ReactNode;
+  input?: boolean;
 }
 
-export default function Popups({ Icon, title, paragraph }: Props) {
+export default function Popups({
+  Icon,
+  title,
+  paragraph,
+  buttons,
+  input,
+}: Props) {
   return (
     <>
       <div className={style.popupContainer}>
@@ -20,16 +28,22 @@ export default function Popups({ Icon, title, paragraph }: Props) {
             </div>
           )}
           <div className={style.textContainer}>
-            <h3>{title}</h3>
+            <h2>{title}</h2>
             <p>{paragraph}</p>
+            {input && (
+              <label className={style.popupInputLabel}>
+                Your password
+                <input
+                  className={style.popupInput}
+                  placeholder="Enter your password here"
+                />
+              </label>
+            )}
           </div>
         </div>
 
         <CloseBtn paragraph={paragraph} />
-        <div className={style.buttonsContainer}>
-          <Button color="white" text="Reject" />
-          <Button color="black" text="Accept" />
-        </div>
+        {buttons && <div className={style.buttonsContainer}>{buttons}</div>}
       </div>
     </>
   );

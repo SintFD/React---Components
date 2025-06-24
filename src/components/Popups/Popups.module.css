@@ -4,9 +4,9 @@
   border-radius: 16px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
-  align-items: flex-end;
-  width: max-content;
-  max-width: 600px;
+  /* align-items: flex-end; */
+
+  width: 640px;
   gap: 40px;
   position: relative;
   margin-bottom: 20px;
@@ -15,6 +15,7 @@
 
 .textContainer {
   display: grid;
+  width: 100%;
 }
 
 .iconSmile {
@@ -56,4 +57,17 @@
 .buttonsContainer {
   display: flex;
   gap: 16px;
+  align-self: flex-end;
+}
+
+.popupInputLabel {
+  display: grid;
+  margin-top: 40px;
+}
+
+.popupInput {
+  display: grid;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  padding: 14px 16px;
 }
