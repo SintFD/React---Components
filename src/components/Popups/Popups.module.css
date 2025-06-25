@@ -69,7 +69,9 @@
   display: grid;
   border: 1px solid rgb(0, 0, 0);
   /* gadjhgjhsadw */
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  border-radius: 15px;
   /* border-radius: 8px; */
-  padding: 14px 16px;
+  /* padding: 14px 16px; */
+  padding: 10px 16px;
 }
