@@ -1,0 +1,53 @@
+.popupContainer {
+  padding: 32px;
+  box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  width: 640px;
+  gap: 40px;
+  position: relative;
+  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textContainer {
+  display: grid;
+  width: 100%;
+}
+
+.iconSmile {
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-color: orange;
+  border-radius: 50px;
+}
+
+.bigIconWrap {
+  background: rgb(255, 234, 159);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.topContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.newTopContainer {
+  flex-direction: column;
+}
+
+.newBigIconWrap {
+  background: rgb(255, 234, 159);
+  border-radius: 50px;
+  padding: 20px;
+}

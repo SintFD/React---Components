@@ -1,4 +1,4 @@
-import style from "./Popups.module.css";
+import style from "./Popup.module.css";
 import type { IconType } from "react-icons";
 import CloseBtn from "../CloseBtn/CloseBtn";
 

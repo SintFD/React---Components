@@ -11,3 +11,12 @@
   background: rgb(0, 0, 0);
   color: white;
 }
+
+.bigBtn {
+  width: 280px;
+}
+
+.smallBtn {
+  width: 155px;
+  padding: 14px 30px;
+}

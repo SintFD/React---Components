@@ -1,0 +1,75 @@
+.popupContainer {
+  padding: 32px;
+  box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+
+  width: 640px;
+  gap: 40px;
+  position: relative;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.textContainer {
+  display: grid;
+  width: 100%;
+  text-align: center;
+}
+
+.iconSmile {
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-color: orange;
+  border-radius: 50px;
+}
+
+.bigIconWrap {
+  background: rgb(255, 234, 159);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.defaultButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 0;
+  border-radius: 29px;
+  background: rgb(229, 229, 229);
+  padding: 5px 8px;
+}
+
+.newPositionButton {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.topContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 16px;
+  align-self: center;
+}
+
+.popupInputLabel {
+  display: grid;
+  margin-top: 40px;
+}
+
+.popupInput {
+  display: grid;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  padding: 14px 16px;
+  width: 100%;
+}
