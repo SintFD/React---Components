@@ -68,6 +68,8 @@
 .popupInput {
   display: grid;
   border: 1px solid rgb(0, 0, 0);
-  border-radius: 8px;
+  /* gadjhgjhsadw */
+  border-radius: 10px;
+  /* border-radius: 8px; */
   padding: 14px 16px;
 }
