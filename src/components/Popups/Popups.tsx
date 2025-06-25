@@ -1,7 +1,6 @@
 import style from "./Popups.module.css";
 import type { IconType } from "react-icons";
 import CloseBtn from "../CloseBtn/CloseBtn";
-import Button from "../common/Button/Button";
 
 interface Props {
   Icon?: IconType;
