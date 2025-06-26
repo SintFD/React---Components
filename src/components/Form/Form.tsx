@@ -1,5 +1,4 @@
 import style from "./Form.module.css";
-import type { IconType } from "react-icons";
 import CloseBtn from "../CloseBtn/CloseBtn";
 import type { ReactNode } from "react";
 
